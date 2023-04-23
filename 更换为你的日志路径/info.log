@@ -1,0 +1,48 @@
+22:33:05.799 [main] INFO  com.czy.eureka_server.EurekaServerApplication - No active profile set, falling back to default profiles: default
+22:33:06.700 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+22:33:06.717 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:33:06.717 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+22:33:06.717 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\java 11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;%JAVA_HOME%\bin;D:\mysql-8.0.23-winx64\bin;%M2_HOME%\bin;D:\Tomcat8.5\bin;D:\apache-maven-3.8.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Python\Python310\;D:\Python\Python310\Scripts;D:\WinGW\bin;C:\Program Files\dotnet\;D:\Git\cmd;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\CZY\AppData\Local\Microsoft\WindowsApps;C:\Users\CZY\AppData\Local\Microsoft\WindowsApps;.]
+22:33:06.775 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:33:06.909 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+22:33:06.909 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+22:33:06.917 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@10156f50
+22:33:08.621 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+22:33:08.658 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+22:33:08.658 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+22:33:08.747 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+22:33:08.747 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+22:33:08.974 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+22:33:08.975 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+22:33:09.550 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+22:33:09.550 [main] INFO  com.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+22:33:09.565 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1682087589550 with initial instances count: 0
+22:33:09.582 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+22:33:09.582 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+22:33:09.599 [main] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+22:33:09.599 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+22:33:09.699 [Thread-12] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+22:33:09.699 [Thread-12] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+22:33:09.699 [Thread-12] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+22:33:09.699 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+22:33:09.699 [Thread-12] INFO  com.czy.eureka_server.listener.EurekaStateChangeListener - Eureka Server启动
+22:33:09.714 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+22:33:09.729 [main] INFO  com.czy.eureka_server.EurekaServerApplication - Started EurekaServerApplication in 5.531 seconds (JVM running for 6.699)
+22:33:10.300 [RMI TCP Connection(1)-192.168.31.46] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+22:33:15.581 [http-nio-7777-exec-1] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: UAA-PROVIDER - host.docker.internal:uaa-provider:7702
+22:33:15.581 [http-nio-7777-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): UAA-PROVIDER - host.docker.internal:uaa-provider:7702
+22:33:15.629 [http-nio-7777-exec-9] INFO  com.czy.eureka_server.listener.EurekaStateChangeListener - 192.168.31.46:7702 	 UAA-PROVIDER 服务上线
+22:33:15.629 [http-nio-7777-exec-9] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance UAA-PROVIDER/host.docker.internal:uaa-provider:7702 with status UP (replication=false)
+22:33:45.672 [http-nio-7777-exec-2] INFO  com.czy.eureka_server.listener.EurekaStateChangeListener - host.docker.internal:uaa-provider:7702 	 UAA-PROVIDER 服务续约
+22:34:03.398 [http-nio-7777-exec-5] INFO  com.czy.eureka_server.listener.EurekaStateChangeListener - 192.168.31.46:7702 	 UAA-PROVIDER 服务上线
+22:34:03.398 [http-nio-7777-exec-5] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance UAA-PROVIDER/host.docker.internal:uaa-provider:7702 with status DOWN (replication=false)
+22:34:03.415 [http-nio-7777-exec-4] INFO  com.czy.eureka_server.listener.EurekaStateChangeListener - host.docker.internal:uaa-provider:7702 	 UAA-PROVIDER 服务下线
+22:34:03.416 [http-nio-7777-exec-4] INFO  com.czy.eureka_server.listener.EurekaStateChangeListener - host.docker.internal:uaa-provider:7702 	 UAA-PROVIDER 服务下线
+22:34:03.416 [http-nio-7777-exec-4] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance UAA-PROVIDER/host.docker.internal:uaa-provider:7702 (replication=false)
+22:34:09.712 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+22:34:25.109 [http-nio-7777-exec-1] INFO  com.czy.eureka_server.listener.EurekaStateChangeListener - 192.168.31.46:7702 	 UAA-PROVIDER 服务上线
+22:34:25.109 [http-nio-7777-exec-1] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance UAA-PROVIDER/host.docker.internal:uaa-provider:7702 with status UP (replication=false)
+22:34:32.937 [Thread-14] INFO  com.netflix.eureka.DefaultEurekaServerContext - Shutting down ...
+22:34:32.939 [Thread-14] INFO  com.netflix.eureka.DefaultEurekaServerContext - Shut down
+22:34:32.943 [Thread-14] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+22:34:32.943 [Thread-14] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

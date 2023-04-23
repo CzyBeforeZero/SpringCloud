@@ -1,0 +1,5 @@
+22:33:06.909 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+22:33:08.974 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+22:33:09.582 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+22:33:15.581 [http-nio-7777-exec-1] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: UAA-PROVIDER - host.docker.internal:uaa-provider:7702
+22:33:15.581 [http-nio-7777-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): UAA-PROVIDER - host.docker.internal:uaa-provider:7702

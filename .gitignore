@@ -1,0 +1,3 @@
+# Project exclude paths
+/EurekaServer/target/
+/uaa-provider/target/

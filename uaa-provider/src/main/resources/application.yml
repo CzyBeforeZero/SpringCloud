@@ -1,0 +1,13 @@
+server:
+  port: 7702
+
+spring:
+  application:
+    name: uaa-provider
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://${EUREKA_ZONE_HOST:localhost}:7777/eureka
